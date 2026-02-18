@@ -1,0 +1,8 @@
+apache config php.in
+Upload_max_filesize=1G
+Post_max_size=1G
+Memory_limit=1G
+Max_execution=300
+
+Mysql my.ini
+Max_allowed_packet=1G
