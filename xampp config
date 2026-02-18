@@ -6,3 +6,6 @@ Max_execution=300
 
 Mysql my.ini
 Max_allowed_packet=1G
+
+composer
+css peek
