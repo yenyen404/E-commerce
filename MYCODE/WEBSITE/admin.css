@@ -1,0 +1,95 @@
+
+
+.container-lr{
+    display: flex;
+    margin-top: 10%;
+    gap: 10%;
+}
+/* insert left */
+.left{
+    width: 40%;
+    height: 100%;
+}
+.left-div{
+    box-shadow: 0px 0px 12px #2f2f2f65;
+    padding: 6%;
+    width: 100%;
+    border-radius: 20px;
+   
+}
+.left-div h4{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.left-table{
+    margin-top: 10px;
+}
+.left-table input{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+     margin-top: 5px;
+}
+.left-table input[type=submit]{
+    margin-top: 5px;
+    padding: 2px;
+   
+}
+
+.file-input::file-selector-button{
+display: none;
+z-index: 999;
+cursor: pointer;
+
+}
+ .left-table [type=file]{
+   background-color: #014532;
+   color: white;
+   width: 100%;
+   height: 100%;
+   padding: 4%;
+   cursor: pointer;
+ }
+
+.left-table input[type=submit]{
+    background-color: #014532;
+    margin-bottom: 3%;
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 3%;
+    cursor: pointer;
+}
+
+
+/* table right */
+.right-tbody{
+    display: block;
+    max-height: 35vw;
+    overflow-y: auto;
+}
+.right-thead, .right-tbody tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.right-div{
+    width: 55vw;
+    position: relative;
+}
+.right-table{
+   background-color: #0145322a;
+    text-align: center;
+    border-collapse:collapse ;
+}
+.right-table thead{
+    color: white;
+    background-color: #014532;
+}
+.td:nth-last-of-type(even){
+    background: white;
+}
+.td img{
+    width: 100%;
+}

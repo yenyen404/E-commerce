@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scrollbar-color: #7B1113 #07010125;
+
+}
+
+
+header{
+    background-color: #7B1113;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* text-align: center;
+    padding:10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; */
+
+   
+}
+
+header img{
+    width: 12%;
+   
+}
+nav{
+    background-color: #7B1113;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    /* top: 20%; */
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+ 
+}
+
+.nav{
+    width: 100%;
+}
+.nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.648);
+    padding: 5px 10px 5px 20px;
+    transition: 0.2s;
+}
+
+#active-nav{
+    color: white;
+
+}
+.nav a:hover{
+    color: white;
+    transition: 0.2s;
+}
+.search-bar{
+    width: 40%;
+
+    text-align: center;
+}
+input[type=search]{
+    font-size: 90%;
+    background: url(../IMAGE/search.png) no-repeat 10px/25px;
+    color: white;
+    padding: 5px 5px 5px 40px;
+    border:1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+
+
+ 
+    
+}
+input[type=search]::placeholder{
+    color: white;
+    opacity: 1;
+}
+input:focus{
+    outline: none;
+}
+button[type=submit]{
+    padding: 5px;
+    font-size: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px white;
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+#profile, #cart{
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+  
+   
+}
+
+.cart-profile{
+align-items: center;
+display: flex;
+  gap: 20px;
+
+}
+/* .nav, .search-bar, .cart-profile{
+    border: solid;
+    
+} */
+
+/* footer */
+footer{
+     background-color:#363839;
+     text-align: center;
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+    
+   
+}
+footer div{
+    padding: 40px;
+    color: white;
+    
+}
+
+.footer-area img{
+    width: 200px;
+    height: auto;
+    
+    
+
+}
